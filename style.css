@@ -1,0 +1,172 @@
+/*Mise en forme Général*/
+
+body{
+    margin-top: 70px;
+    background-image: url(img/background.jpg);
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*Mise en forme container principal*/
+
+#containerprincipal{
+    display: flex;
+}
+/*Mise en forme Header*/
+
+.titre {
+    width: 800px;
+    margin: auto;
+}
+
+.titre h1{
+    font-family: "Oleo Script", Arial, Verdana, sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #195e83;
+    text-align: center;
+    border : 4px solid #195e83;
+    width: 800px;
+    padding: 10px 10px;
+    box-shadow: 6px 6px 20px    ;
+
+}
+
+/*Mise en forme nav*/
+
+.menu{
+    text-align: center;
+    margin: auto;
+    }
+
+.menu li{
+    display:inline-block;
+    background-color: #fff;
+    border: 2px solid #195e83;
+    margin: 50px 25px;
+    padding: 5px 5px;
+}
+
+.menu li a {
+    font-family: Arial, Verdana, sans-serif;
+    font-size : 1.3em;
+    text-decoration: none;
+    color: #195e83  ;
+}
+
+.menu li a:hover{
+    opacity:50%;
+}
+
+/*Mise en forme Container1*/
+
+#container1{
+    display: flex;
+    flex-direction: column;
+    background-color: #195e83;
+    width: 20%;
+    margin-top: 50px;
+}
+
+.photo{
+    text-align: right;
+    padding: 10px 10px;
+}
+
+#contact{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.ville{
+    margin-left: 43px;
+}
+
+#container1 h2{
+    font-family: "Oleo Script", Arial, Verdana, sans-serif;
+    color: #fff;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#container1 p{
+    font-family: Arial, Verdana, Garamond, sans-serif;
+    font-size: 1em;
+    color: #fff;
+    line-height: 35px;
+    margin: 20px 20px;
+}
+
+.presentation{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#container1 ul{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#container1 ul li{
+    font-family: Arial, Verdana, Garamond, sans-serif;
+    font-size: 1em;
+    padding-top: 15px;
+    color: #fff;
+    line-height: 12px;
+}
+
+.atouts{
+    margin-top: 15px;
+}
+
+.loisirs{
+    margin-top: 15px;
+}
+
+/*Mise en forme container 2*/
+
+#container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 200px;
+}
+
+#container2 h2{
+    font-family: "Oleo Script", Arial, Verdana, sans-serif;
+    color: #195e83;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#container2 ul{
+    margin-top: 40px;
+}
+
+#container2 ul li{
+    font-family: Arial, Verdana, Garamond, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+    line-height: 45px;
+}
+
+#container2 strong{
+    color: #195e83;
+}
+
+#haut{
+    text-align: right;
+    padding-top: 100px;
+    font-family: "Oleo Script", Arial, Garamond, sans-serif;
+    font-size: 1.2em;
+    color: #195e83;
+}
+    

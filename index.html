@@ -5,16 +5,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mon Curriculum Vitae</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
 	<!--Titre de mon CV.-->
-	<header id="titre">
-		<h1>Objectif professionnel : Développeur Web</h1>
+	<header class="titre">
+		<h1 id="retour">Objectif professionnel : Développeur Web</h1>
 	</header>
 
 	<!--Menu comportant des ancres vers les différrentes catégories.-->
-	<nav id="menu">
+	<nav class="menu">
 		<ul>
 			<li><a href="#contact">Contact</a></li>
 			<li><a href="#competences">Compétences</a></li>
@@ -24,6 +26,7 @@
 		</ul>
 	</nav>
 
+<div id="containerprincipal">
 	<!--ce container correspond à la colonne de Gauche.-->
 	<div id="container1">
 
@@ -34,36 +37,37 @@
 		<div id="contact">
 			<h2>Thierry Emery</h2>
 				<ul>
-					<li><img src="img/ico-mail.png" alt="logo-mail" width="10" height="10"/>: thierry28.emery@gmail.com</li>
-					<li><img src="img/ico-location.png" alt="logo-adresse" width="10" height="10"/>: 51, rue du Général de Gaulle 62156 Haucourt.</li>
-					<li><img src="img/ico-permis.png" alt="logo-permis" width="10" height="10"/>: Permis B.</li>
-					<li><img src="img/ico-car.png" alt="logo-voiture" width="10" height="10"/>: Véhicule Personnel.</li>
-					<li><img src="img/ico-portable.png" alt="logo-telephone portable" width="10" height="10"/>: 06.63.22.65.28</li>
-					<li><img src="img/ico-telephone.png" alt="logo-telephone" width="10" height="10"/>: 09.83.52.98.03</li>
+					<li><img src="img/ico-mail.png" alt="logo-mail" width="30" height="20"/> : thierry28.emery@gmail.com</li>
+					<li><img src="img/ico-location.png" alt="logo-adresse" width="30" height="30"/> : 51, rue du Général de Gaulle</li>
+					<li class="ville">62156 Haucourt</li>
+					<li><img src="img/ico-permis.png" alt="logo-permis" width="30" height="30"/> : Permis B.</li>
+					<li><img src="img/ico-car.png" alt="logo-voiture" width="30" height="30"/> : Véhicule Personnel.</li>
+					<li><img src="img/ico-portable.png" alt="logo-telephone portable" width="30" height="30"/> : 06.63.22.65.28</li>
+					<li><img src="img/ico-telephone.png" alt="logo-telephone" width="30" height="30"/> : 09.83.52.98.03</li>
 				</ul>
 		</div>
 		
 		<!---Ma présentation-->
-		<div id="presentation">
+		<div class="presentation">
 			<h2>&Agrave; propos de moi </h2>
 			<p>Passionné et autodidacte dans le domaine informatique, je suis motivé pour faire de ma passion mon métier.
 				J'apprends seul les langages html, css et java-script en m'aidant des cours de Mr Pierre Giraud et de site tel que ceux de la 3W Academy, Codecademy, Openclassrooms etc...</p>
 		</div>
 
 		<!--Une liste de mes atouts.-->
-		<div id="atouts">
+		<div class="atouts">
 			<h2>Mes atouts</h2>
 				<ul>
 					<li>Transmettre des connaissances.</li>
 					<li>Rédiger des documents ou rapports.</li>
 					<li>Mettreen oeuvre des procédures et règles.</li>
-					<li>Utiliserles outils bureautiques.</li>
+					<li>Utiliser les outils bureautiques.</li>
 					<li>Installer des points d'accès internet.</li>
 				</ul>
 		</div>
 
 		<!--Mes hobbies-->
-		<div id="loisirs">
+		<div class="loisirs">
 			<h2>Centres d'inérêts</h2>
 				<ul>
 					<li>Bricolage.</li>
@@ -86,7 +90,7 @@
 					<li>Rédiger des devis.</li>
 					<li>Assembler des ordinateurs.</li>
 					<li>Diagnostiquer des disfonctionements.</li>
-					<li>Configurer des postes ininformatiques.</li>
+					<li>Configurer des postes informatiques.</li>
 				</ul>
 		</div>
 
@@ -98,7 +102,7 @@
 					<li>2011 : <Strong>Electricien d'équipement (Stage)</Strong> Ets Pannequin à Biache-Saint-Vaast.</li>
 					<li>2010 : <Strong>Employé de libre service (Stage) </Strong> Ecomarché à Vis-En-Artois.</li>
 					<li>2008 - 2009 : <Strong>Technicien de mainteance informatique (Stage) </Strong> A.M.I Pro à Arras</li>
-					<li>2008 : <strong>Technicien de maintenance informatique (Stage) ATOM PC à Raillencourt-Saint-Olle.</strong></li>
+					<li>2008 : <strong>Technicien de maintenance informatique (Stage) ATOM PC </strong>Raillencourt-Saint-Olle.</li>
 					<li>2007 : <Strong>Magasinier</Strong> Les restaurants du coeur à Beaurains</li>
 					<li>2007 : <strong>Magasinier-Vendeur</strong> Gamm vert à Baralles.</li>
 					<li>2003 : <strong>Magasinier-Vendeur</strong> Feut vert à Arras.</li>
@@ -120,7 +124,9 @@
 					<li>Septembre 1996 à Juin 1998 : <strong>BEP/CAP Distribution Magasinage</strong>Lycée proofessionnel à Bapaume.</li> 
 				</ul>
 		</div>
-
-	</div> 
+		<a id="haut" href="#retour">Haut de page</a>
+	</div>
+</div> 
 </body>
 </html>
+
